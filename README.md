@@ -1,14 +1,14 @@
-# patterns & practices Samples
+# patrones y prácticas Muestras
 
-This repo contains various samples and references used in the Azure Architecture Center and elsewhere.
+Este repositorio contiene varios ejemplos y referencias utilizadas en Azure Architecture Center y en otros lugares.
 
 ---
-## Microsoft Open Source Code of Conduct
+## Código de conducta de código abierto de Microsoft
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Este proyecto ha adoptado el [Código de conducta de código abierto de Microsoft](https://opensource.microsoft.com/codeofconduct/).
 
-Resources:
+Recursos:
 
-- [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
-- [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-- Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with questions or concerns
+- [Código de conducta de código abierto de Microsoft](https://opensource.microsoft.com/codeofconduct/)
+- [Preguntas frecuentes sobre el Código de conducta de Microsoft](https://opensource.microsoft.com/codeofconduct/faq/)
+- Contacto [opencode@microsoft.com](mailto:opencode@microsoft.com) con preguntas o inquietudes
