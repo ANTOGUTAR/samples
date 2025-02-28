@@ -1,42 +1,42 @@
 --- 
-page_type: sample
-languages:
+page_type: Ejemplos
+de lenguajes:
 - azurecli
 products:
 - azure
 ---
 
-# Azure Well Architected Framework Sample (Custom Script Extension)
+# Ejemplo de Azure Well Architected Framework (extensión de script personalizada)
 
-This Azure Resource Manager (ARM) template sample deploys an Ubuntu virtual machine and uses the custom script extension to install Nginx on the VM.
+Este ejemplo de plantilla de Azure Resource Manager (ARM) implementa una máquina virtual Ubuntu y usa la extensión de script personalizada para instalar Nginx en la máquina virtual.
 
-## Deploy sample
+## Desplegar ejemplo
 
-**Azure portal**
+**Portal Azure**
 
-To deploy this template using the Azure portal, click this button.  
+Para implementar esta plantilla mediante el portal de Azure, haga clic en este botón.  
 
 <br />
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmspnp%2Fsamples%2Fmaster%2FOperationalExcellence%2Fscript-extension%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/mspnp/samples/master/OperationalExcellence/script-extension/azuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>  
 
 **Azure CLI**
 
-Clone the samples repository.
+Clonar el repositorio de muestras.
 
 ```azurecli
 git clone https://github.com/mspnp/samples.git
 ```
 
-Create a resource group for the deployment.
+Cree un grupo de recursos para la implementación.
 
 ```azurecli
 az group create --name boot-strap-script-extension --location eastus
 ```
 
-Run the following command to initiate the deployment.
+Ejecute el siguiente comando para iniciar la implementación.
 
 ```azurecli
 az deployment group create \
@@ -45,20 +45,20 @@ az deployment group create \
     --parameters adminUserName=adminuser adminPassword=Password2020!
 ```
 
-Once done, the following resource will have been deployed to your Azure Subscription.
+Una vez hecho esto, el siguiente recurso se habrá implementado en su suscripción de Azure.
 
-![Image of Azure resources, as seen in the Azure portal.](./images/custom-script-demo-resources.png)
+![Imagen de los recursos de Azure, tal como se ve en el portal de Azure.](./images/custom-script-demo-resources.png)
 
-Browse to the public IP address of the virtual machine to verify that Nginx has been installed.
+Busque la dirección IP pública de la máquina virtual para verificar que se haya instalado Nginx.
 
-![Image of Nginx default page seen in a web browser.](./images/nginx.png)
+![Imagen de la página predeterminada de Nginx vista en un navegador web.](./images/nginx.png)
 
 ## Microsoft Open Source Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Este proyecto ha adoptado al [Código de conducta de código abierto de Microsoft]](https://opensource.microsoft.com/codeofconduct/).
 
-Resources:
+Recursos:
 
 - [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
 - [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-- Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with questions or concerns
+- Contacto  [opencode@microsoft.com](mailto:opencode@microsoft.com) with questions or concerns
